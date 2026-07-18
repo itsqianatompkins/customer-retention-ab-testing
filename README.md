@@ -14,3 +14,5 @@ Bookmark’d, a rapidly growing direct-to-consumer (D2C) online bookstore platfo
 ## Objective
 The objective of this project is to analyze historical subscriber data and transaction patterns to build, fine-tune, and compare advanced predictive classification models (Logistic Regression, Multilayer Perceptron Neural Networks, and Random Forests) that isolate high-probability purchase signals. By evaluating model metrics such as Area Under the ROC Curve (AUC) and calculating decile-based cumulative gains and lift, this analysis establishes a statistically rigorous A/B testing framework. Ultimately, these models translate data-driven probabilities into prescriptive marketing strategies, ensuring that retention budgets are deployed exclusively to the highest-yield customer cohorts to maximize customer lifetime value (CLV) and win-back campaign ROI.
 
+## Interactive Analytics Dashboard
+ [View the Interactive Power BI/Tableau Public Executive KPI Dashboard](YOUR_TABLEAU_PUBLIC_LINK_HERE)
