@@ -3,7 +3,8 @@ End-to-end lifecycle marketing analytics framework for a D2C e-commerce platform
 
 ##
 <img width="870" height="643" alt="image" src="https://github.com/user-attachments/assets/27518066-1e1a-49a8-859b-da14a8f60b14" />
-##
+
+
 
 (This case study uses fictional company data with legitimate analytical methods and is intended solely to demonstrate professional skills and capabilities while pursuing career opportunities.)
 
