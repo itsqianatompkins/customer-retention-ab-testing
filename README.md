@@ -76,7 +76,8 @@ To validate this optimization model without risking the entire database, we depl
 
 The experiment achieved a statistically significant retention lift, proving that data-driven model thresholds out-perform historical baselines.
 
-https://raw.githubusercontent.com/itsqianatompkins/customer-retention-ab-testing/master/project_results_brand.png 
+<img src="https://raw.githubusercontent.com/itsqianatompkins/customer-retention-ab-testing/master/project_results_brand.png" alt="Customer Retention A/B Testing Brand Results" width="100%">
+
 
 ---
 
