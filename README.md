@@ -30,6 +30,10 @@ This project transitions marketing operations from broad targeting to high-effic
 ## Executive Summary
 The primary goal was to determine the most cost-effective framework for predicting conversion behavior and to simulate the financial return of a targeted lifecycle campaign. 
 
+* *Genre Affinity Paradigm:* Performed best among baseline frameworks (AUC: 0.752), indicating that specific content preferences are highly predictive of purchasing intent.
+
+![ROC Curves Comparing Baseline Marketing Frameworks](image_40b77e.png)
+
 ### Core Methodology & Evolution
 1. **Baseline Frameworks:** We initially built three distinct benchmark models using Logistic Regression to evaluate different feature sets:
    * *Demographic Paradigm:* Performed poorly (AUC: 0.573), proving that *who* a user is has very little predictive power regarding immediate purchasing decisions.
