@@ -1,4 +1,4 @@
-[bookmarkd_lifecycle_predictive_analytics (1).ipynb](https://github.com/user-attachments/files/30159965/bookmarkd_lifecycle_predictive_analytics.1.ipynb)[bookmarkd_lifecycle_predictive_analytics (1).ipynb](https://github.com/user-attachments/files/30159963/bookmarkd_lifecycle_predictive_analytics.1.ipynb)[bookmarkd_lifecycle_predictive_analytics.ipynb](https://github.com/user-attachments/files/30159929/bookmarkd_lifecycle_predictive_analytics.ipynb)# customer-retention-ab-testing
+
 End-to-end lifecycle marketing analytics framework for a D2C e-commerce platform. Features SQL cohort extraction, Python predictive modeling (Random Forest &amp; Neural Networks), A/B test lift architecture, and a Power BI retention dashboard to optimize margins and maximize win-back ROI.
 
 ##
@@ -30,8 +30,7 @@ This project transitions marketing operations from broad targeting to high-effic
 _Technical Documentation: This project portfolio includes comprehensive technical documentation, the raw CSV dataset, an end-to-end Jupyter Notebook analysis
 
 * _[Dat_Bookmarkd.csv](https://github.com/user-attachments/files/30159954/Dat_Bookmarkd.csv)
-* [Uploading bookmarkd_lifecycle_predictive_analytics (1).ipynb…]()
-
+* [bookmarkd_lifecycle_predictive_analytics (1).ipynb](https://github.com/user-attachments/files/30159965/bookmarkd_lifecycle_predictive_analytics.1.ipynb)[bookmarkd_lifecycle_predictive_analytics (1).ipynb]
 
 
 ## Executive Summary
