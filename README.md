@@ -71,6 +71,15 @@ Using an operational budget model of $0.50 marketing overhead cost per account a
 
 <img width="528" height="289" alt="Screenshot 2026-07-18 182817" src="https://github.com/user-attachments/assets/49c70187-c6a6-4944-8d84-708d3f1756dc" />
 
+### Experimental Validation (A/B Test Lift Architecture)
+To validate this optimization model without risking the entire database, we deployed a fixed-horizon A/B test framework split evenly across the target volume. Group A (Control) received the legacy reactive blanket discount strategy, while Group B (Variation) was suppressed or targeted strictly using the Top 30% Random Forest boundary. 
+
+The experiment achieved a statistically significant retention lift, proving that data-driven model thresholds out-perform historical baselines.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/itsqianatompkins/customer-retention-ab-testing/main/project_results_brand.png" alt="Bookmark'd Evaluation Tool Result" width="85%"/>
+</p>
+
 ---
 
 ## Recommendations & Next Steps
@@ -78,3 +87,4 @@ Using an operational budget model of $0.50 marketing overhead cost per account a
 1. **Enforce the 30% Operational Cut-off:** Hard-code the campaign dispatch pipelines to automatically truncate lifecycle marketing distributions at the 30th percentile boundary. This locks in 71.65% of potential revenue while permanently saving 70% ($5,250.00) of the overhead budget that would have been wasted on low-probability accounts.
 2. **Prioritize Behavioral Intent Over Demographics:** Sunset any marketing acquisition or retention models relying strictly on static demographic profiles. Production scoring systems must prioritize deep **genre affinity metrics** combined with **RFM transaction intervals** to keep predictive outputs sharp.
 3. **Automate the Random Forest Scoring Pipeline:** Deploy the optimized `RandomForestClassifier` configuration (`max_depth=10`, `max_samples=0.75`, `n_estimators=1000`) into a weekly batch-scoring cron job. This ensures that user account scores dynamically recalculate as engagement profiles change, keeping the top 3 deciles continuously refreshed.
+4. **Scale the Experimental Validation Framework:** Transition the validated A/B testing architecture into a rolling 5% holdout group script for all upcoming win-back campaigns. This continuously tracks long-term baseline drift, monitors for feature changes, and ensures the Random Forest model's lift numbers remain statistically sound before full database deployment.
