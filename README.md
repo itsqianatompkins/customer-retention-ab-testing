@@ -30,8 +30,7 @@ This project transitions marketing operations from broad targeting to high-effic
 _Technical Documentation: This project portfolio includes comprehensive technical documentation, the raw CSV dataset, an end-to-end Jupyter Notebook analysis
 
 * _[Dat_Bookmarkd.csv](https://github.com/user-attachments/files/30159954/Dat_Bookmarkd.csv)
-* [bookmarkd_lifecycle_predictive_analytics (1).ipynb](https://github.com/user-attachments/files/30159965/bookmarkd_lifecycle_predictive_analytics.1.ipynb)[bookmarkd_lifecycle_predictive_analytics (1).ipynb]
-
+* [bookmarkd_lifecycle_predictive_analytics (1).ipynb](https://github.com/user-attachments/files/30159965/bookmarkd_lifecycle_predictive_analytics.1.ipynb)
 
 ## Executive Summary
 The primary goal was to determine the most cost-effective framework for predicting conversion behavior and to simulate the financial return of a targeted lifecycle campaign. 
