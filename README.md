@@ -31,8 +31,9 @@ This project transitions marketing operations from broad targeting to high-effic
 The primary goal was to determine the most cost-effective framework for predicting conversion behavior and to simulate the financial return of a targeted lifecycle campaign. 
 
 * *Genre Affinity Paradigm:* Performed best among baseline frameworks (AUC: 0.752), indicating that specific content preferences are highly predictive of purchasing intent.
+  
+<img width="733" height="488" alt="Screenshot 2026-07-18 182727" src="https://github.com/user-attachments/assets/42faba75-54b1-468a-ac4e-d39643a3129a" />
 
-![ROC Curves Comparing Baseline Marketing Frameworks](image_40b77e.png)
 
 ### Core Methodology & Evolution
 1. **Baseline Frameworks:** We initially built three distinct benchmark models using Logistic Regression to evaluate different feature sets:
@@ -40,9 +41,12 @@ The primary goal was to determine the most cost-effective framework for predicti
    * *RFM Metrics Paradigm:* Performed strongly (AUC: 0.738), showing that historical transaction patterns provide a solid behavioral anchor.
    * *Genre Affinity Paradigm:* Performed best among baseline frameworks (AUC: 0.752), indicating that specific content preferences are highly predictive of purchasing intent.
 2. **Algorithmic Expansion:** To capture non-linear relationships, we tested an iterative Neural Network architecture. While a finely tuned 10-node layer matched our baseline performance (AUC: 0.751), increasing layer complexity to 30 and 50 nodes introduced immediate overfitting and noise vulnerabilities, dropping the test performance down to 0.749.
+
+<img width="470" height="52" alt="Screenshot 2026-07-18 182739" src="https://github.com/user-attachments/assets/a8ba5025-0901-469a-a2b2-1f607e50dede" />
+
 3. **The Winning Framework:** A hyperparameter-optimized **Random Forest Classifier** was deployed as the final production model. By utilizing a grid search to discover an optimal tree bootstrapping sample fraction of `0.75` (with 1,000 estimators and a constrained max depth of 10), the model achieved a peak test performance of **AUC: 0.796**, successfully neutralizing data noise and stabilization challenges.
 
----
+<img width="639" height="486" alt="Screenshot 2026-07-18 182757" src="https://github.com/user-attachments/assets/d1917aa0-8d8b-4549-aab0-5605ae7bd30b" />
 
 ## Core Business Insights
 The final model was deployed against a simulated lifecycle campaign targeting 15,000 accounts to map out real-world performance gains:
@@ -64,6 +68,8 @@ Using an operational budget model of $0.50 marketing overhead cost per account a
 | **Gross Campaign Revenue Generated** | $23,950.00 |
 | **Net Profit Realized** | **$21,700.00** |
 | **Program Return on Investment (ROI)** | **964.44%** |
+
+<img width="528" height="289" alt="Screenshot 2026-07-18 182817" src="https://github.com/user-attachments/assets/49c70187-c6a6-4944-8d84-708d3f1756dc" />
 
 ---
 
